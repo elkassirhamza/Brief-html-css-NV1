@@ -1,0 +1,101 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #E5FEA2;
+    padding: 0px;
+}
+
+.image1 {
+    padding: 5px 0 0 0px;
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    margin-left: 50px
+}
+
+div#contener {
+    width: 770px;
+    background: white;
+    border: solid 2px;
+    color: yellowgreen;
+    border-radius: 2px;
+    margin: 0px auto;
+}
+
+div#contenu {
+    padding: 0px 25px 0 100px;
+    background: url(bg_page.gif) no-repeat 15px 15px;
+}
+
+div#contenu h2 {
+    padding-left: 25px;
+    background: url(little_apple.gif) no-repeat;
+    color: #9b2;
+    border-bottom: 1px solid #9b2;
+    font-size: 1.4em;
+}
+
+div#contenu h3 {
+    border-bottom: 1px solid #9b2;
+    Border-left: 2px solid #9b2;
+    color: #9b2;
+    padding-left: 10px;
+    margin-left: 15px;
+}
+
+div#contenu p {
+    text-indent: 15px;
+    text-align: justify;
+    color: black;
+}
+
+
+/*backgroung du navbar*/
+
+ul#menu {
+    list-style-type: none;
+    background: url(bg_menu.gif) repeat-x 0 -25px;
+    height: 35px;
+    margin: -4PX 0;
+    padding: 0px 0;
+}
+
+
+/*pour aligne les li*/
+
+ul#menu li {
+    float: left;
+    text-align: center;
+}
+
+
+/* pour adapter le text avec background*/
+
+ul#menu li a {
+    width: 126px;
+    line-height: 25px;
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #FFF;
+    display: block;
+    text-decoration: none;
+    border-right: 2px solid #dea;
+}
+
+ul#menu :hover {
+    background: url(bg_menu.gif) repeat-x 0 0;
+}
+
+div#site a {
+    color: yellowgreen;
+    padding-left: 100px;
+}
+
+div#footer {
+    text-align: right;
+    color: #9b2;
+    padding-right: 20px;
+}
+
+
+}
